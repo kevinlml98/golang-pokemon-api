@@ -33,6 +33,7 @@ func commonMiddleware(next http.Handler) http.Handler {
 func createNewArticle(w http.ResponseWriter, r *http.Request) {
 	/*
 		{
+
 			"ID": "3",
 			"Name": "Bulbasaur",
 			"Type": "Plant"
